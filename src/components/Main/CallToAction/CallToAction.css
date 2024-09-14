@@ -1,0 +1,70 @@
+.callToAction {
+    margin-top: 5px;
+    background-color: #495e57;
+    display: flex;
+    /* max-height: 80%; */
+    align-items: center;
+    /* max-width: 700px; */
+    /* width: 100%; */
+    /* flex: 1; */
+    justify-content: space-between;
+    padding-left: 20%;
+}
+
+.callToAction article {
+    /* width: 50%; */
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+
+}
+
+.restaurant-name {
+    font-family: "Markazi Text", system-ui;
+    font-size: 40px;
+    color: #f4ce14;
+}
+
+.restaurant-location {
+    font-family: "karla", system-ui;
+    font-size: 30px;
+    color: #edefee;
+}
+
+.callToAction button {
+    font-size: 20px;
+    font-family: "karla", system-ui;
+    background-color: #f4ce14;
+    border-radius: 7px;
+    height: 60px;
+    padding-top: 20px;
+    padding-bottom: 43px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 10%;
+}
+
+.callToAction p {
+    font-size: 20px;
+    width: 350px;
+    color: #edefee;
+    /* flex-wrap: wrap; */
+    margin-top: 5%;
+}
+
+.callToAction img {
+    height: 317px;
+    max-width: 300px;
+    margin-top: 2%;
+    border-radius: 5%;
+    position: absolute;
+
+    top: 70px;
+    /* Extends image 50px above container top */
+
+    right: 200px;
+    /* Extends image 50px left of container */
+
+    width: 200px;
+}

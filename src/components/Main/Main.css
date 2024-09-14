@@ -1,0 +1,12 @@
+.main {
+    /* height: 60%; */
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        height: 300px;
+        grid-column: 1/2;
+    }
+}

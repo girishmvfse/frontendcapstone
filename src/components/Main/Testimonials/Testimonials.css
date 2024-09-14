@@ -1,0 +1,11 @@
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 600px;
+    border: 1px solid black;
+}
+
+.testimonials h1 {
+    font-size: 25px;
+}
